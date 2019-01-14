@@ -31,7 +31,9 @@ header{
     background-image: linear-gradient( rgb(99, 99, 99)80% , rgb(173, 173, 173));
 }
 #paz_logo{
+    position: absolute;
     text-align: right;
+    top:40px;
 }
 
 input{
@@ -64,6 +66,13 @@ input{
     content: "";
     clear: both;
     display: table;
+}
+.col-nav{
+    width:80%;
+}
+.col-logo{
+    width: 142px;
+    height:120px;
 }
 
 .col{
@@ -147,7 +156,7 @@ a.readmore{
     /* float: left; */
 }
 
-li.last>a{
+li>a.last{
     color: red;
     border-left: none;
 }
@@ -273,3 +282,78 @@ footer{
     background-image: linear-gradient( rgb(173, 173, 173)20% , rgb(99, 99, 99));
 }
 
+/* ----nav styles---- */
+
+nav.main-nav{
+    z-index: 1000;
+    display: inline-block;
+    width: 100%;
+    color: rgb(255, 255, 255);
+}
+nav > ul > li > a {
+    text-decoration: none;
+    padding: 5px;
+    display: block;
+  }
+/* nav > ul > li.nav-on , nav.main-nav>ul>li:hover{
+    background-color:rgb(23, 68, 134);
+  } */
+
+nav.main-nav > ul > li > a {
+        color: rgb(255, 255, 255);
+        border-right: 1px solid rgb(23, 68, 134);
+        text-align: center;
+        font-weight: bold;
+}
+nav.dropdown-content > ul > li > a {
+    color: rgb(39, 39, 39);
+    /* border-right: 1px solid rgb(23, 68, 134);
+    border-left: 1px solid rgb(23, 68, 134); */
+    border-bottom: 1px solid rgb(173, 173, 173);
+    text-align: right;
+}
+nav.dropdown-content > ul > li >a:hover {
+    color: rgb(39, 39, 39);
+    /* background-color: rgb(245, 229, 4); */
+    /* border-right: 1px solid rgb(23, 68, 134);
+    text-align: right; */
+}
+  
+nav.dropdown-content{
+    width: 150px;
+    color:rgb(39, 39, 39);
+    background-color: rgb(99, 99, 99);
+    display: none;
+    position: absolute;
+    /* right: 0%; */
+    /* top: 100%; */
+    box-shadow: 5px 5px 5px 0px rgba(43, 49, 88, 0.3);
+}
+
+  .dropdown {
+    position: relative;
+  }
+
+  .dropdown:hover>.dropdown-content{
+      display: block;
+      z-index: 1;
+      
+  }
+
+  nav.main-nav > ul > li{
+      display: inline-block;
+      width: 120px;
+      text-align: right;
+  }
+  .dropdown .caret {
+    float: left;
+  }
+  ul{
+    list-style-type: none;
+    text-align: center;
+  }
+li> .last-nav{
+    border-left: 1px solid rgb(39, 39, 39);
+
+}
+ /* ----end nav styles---- */
