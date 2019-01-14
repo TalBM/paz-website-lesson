@@ -30,6 +30,19 @@ header{
     margin-bottom: 30px;
     background-image: linear-gradient( rgb(99, 99, 99)80% , rgb(173, 173, 173));
 }
+#paz_logo{
+    text-align: right;
+}
+
+input{
+    margin: 0;
+    float: left;
+    width: 130px;
+    height: 19px;
+    border-top-right-radius: 5px;
+    border: 1px solid grey;
+    padding-right: 5px;
+}
 
 .container{
     width: 908px;
@@ -111,6 +124,12 @@ p{
     margin-left: 20px;
 }
     
+a.eng{
+    font-size: 13px;
+    font-weight: regular;
+    line-height: 110%;
+    color: white;
+}
 a.readmore{
     font-size: 13px;
     font-weight: regular;
@@ -130,7 +149,7 @@ a.readmore{
 
 li.last>a{
     color: red;
-    border-left:none;
+    border-left: none;
 }
 
 a.readmore2{
@@ -231,7 +250,7 @@ ul{
 ul>li{
 display: inline-block;
 border-left: 1px solid white;
-padding: 0px 3px 0px 7px;
+padding: 0px 0px 0px 3px;
 /* height: 10px;
 padding: 5px; */
 }
