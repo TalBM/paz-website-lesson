@@ -2,6 +2,7 @@
     box-sizing: border-box;
     direction: rtl;
     text-align: right;
+    border:1px solid grey;
 }
 
 body{
@@ -292,7 +293,7 @@ nav.main-nav{
 }
 nav > ul > li > a {
     text-decoration: none;
-    padding: 5px;
+    /* padding: 5px; */
     display: block;
   }
 /* nav > ul > li.nav-on , nav.main-nav>ul>li:hover{
@@ -320,7 +321,7 @@ nav.dropdown-content > ul > li >a:hover {
 }
   
 nav.dropdown-content{
-    width: 150px;
+    width: 120px;
     color:rgb(39, 39, 39);
     background-color: rgb(99, 99, 99);
     display: none;
@@ -342,10 +343,12 @@ nav.dropdown-content{
 
   nav.main-nav > ul > li{
       display: inline-block;
-      width: 120px;
-      text-align: right;
+      /* width: 120px; */
+      padding-right: 10px;
+      padding-left: 10px;
+
   }
-  .dropdown .caret {
+  .dropdown .meshulash {
     float: left;
   }
   ul{
