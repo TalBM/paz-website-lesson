@@ -49,11 +49,11 @@ input{
 }
 
 .container{
-    width: 925px;/*fix-me
+    width: 910px;
     margin: 0 auto;
 
     /* text-align: center; */
-    /* background-color: rgba(1, 255, 35, 0.644); */
+    background-color: rgba(1, 255, 35, 0.3);
 }
 
 .row{
@@ -65,17 +65,20 @@ input{
     top: 150px;  
 }
 
-.row::after{
+.row::after, container{
     content: "";
     clear: both;
     display: table;
 }
 .col-nav{
-    width:80%;
+    width:760px;
+    float:right;
 }
 .col-logo{
     width: 142px;
-    height:120px;
+    float:right;
+    margin-top:40px;
+    /* height:120px; */
 }
 
 .col{
@@ -436,13 +439,13 @@ form {
 
     padding: 10px;
   }
-  
-  .row::after {
+/*   
+  .row::after, container{
     content: "";
     display: table;
     clear: both;
   }
-  
+   */
 
   
   /* .column {
