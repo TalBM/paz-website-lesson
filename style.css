@@ -107,12 +107,12 @@ input{
 }
 
 h2{
-font-size: 14px;
-font-weight: bold;
-line-height: 150%;
-margin: 3px;
-margin-right: 10px;
-margin-left: 30px;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 150%;
+    margin: 3px;
+    margin-right: 10px;
+    margin-left: 30px;
 
 }
 
@@ -126,6 +126,12 @@ h3{
     border-bottom: 2px solid rgb(226, 226, 226);
 }
 
+h4{
+    font-weight: bold;
+    font-size: 13px;
+    font-weight: regular;
+    line-height: 110%;
+}
 p{
     font-size: 13px;
     font-weight: regular;
@@ -134,7 +140,14 @@ p{
     margin-right: 10px;
     margin-left: 20px;
 }
-    
+p.infotext1{
+    font-size: 13px;
+    font-weight: regular;
+    line-height: 150%;
+    /* margin: 5px; */
+    margin-right: 0px;
+    /* margin-left: 20px; */
+}    
 a.eng{
     font-size: 13px;
     font-weight: regular;
@@ -217,7 +230,7 @@ a:hover{
     /* box-sizing: border-box; */
 
     position: relative;
-    float: left;
+    float: right;/* fix me to: float: left*/
     /* background: url(images\small_cube_bg.png) no-repeat; */
     background-image: linear-gradient( rgb(253, 253, 253)50% , rgb(226, 226, 226));
     border: 1px solid rgb(226, 226, 226);
@@ -225,7 +238,7 @@ a:hover{
 
     width: 292px;
     height: 216px;
-    margin-bottom: 80px;
+    margin-bottom: 30px;
     /* height:auto ; */
 
 }
@@ -376,6 +389,25 @@ li> .last-nav{
     height: auto;
     margin: 5px;
 }
- .breadcrums{
-     width: 906px;
+.col-more-info{
+    position: relative;
+    float: right;
+    width: 292px;
+    height: auto;
+    margin: 5px;
+}
+.breadcrums{
+     width: 800px;
+     margin: 0 auto;
+
  }
+.col-content{
+    width:460px;
+    position: relative;
+    float: right;
+    margin-left:30px;
+
+    background-image: linear-gradient( rgb(253, 253, 253)50% , rgb(226, 226, 226));
+    border: 1px solid rgb(226, 226, 226);
+    border-top-right-radius: 20px;
+}
