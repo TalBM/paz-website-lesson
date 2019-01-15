@@ -65,14 +65,14 @@ input{
     top: 150px;  
 }
 
-.row::after, container{
+.row::after{
     content: "";
     clear: both;
     display: table;
 }
 .col-nav{
     width:760px;
-    float:right;
+    float:left;
 }
 .col-logo{
     width: 142px;
@@ -275,15 +275,15 @@ img#img-map{
 
 ul{
     list-style: none;
-    padding-right:0;
+    /* padding-right:0;
     margin-top: 5px;
-    vertical-align: baseline;
+    vertical-align: baseline; */
 }
 
 ul>li{
 display: inline-block;
-border-left: 1px solid white;
-padding: 0px 0px 0px 3px;
+/* border-left: 1px solid white; */
+/* padding: 0px 0px 0px 3px; */
 /* height: 10px;
 padding: 5px; */
 }
@@ -307,7 +307,9 @@ footer{
 }
 
 /* ----nav styles---- */
-
+.sep{
+    color:rgb(185, 185, 185);
+}
 nav.main-nav{
     z-index: 1000;
     display: inline-block;
@@ -325,28 +327,28 @@ nav > ul > li > a {
 
 nav.main-nav > ul > li > a {
         color: rgb(255, 255, 255);
-        border-right: 1px solid rgb(23, 68, 134);
-        text-align: center;
+        font-size: 16px;
+        /* border-right: 1px solid rgb(23, 68, 134); */
+        text-align: right;
         font-weight: bold;
 }
-nav.dropdown-content > ul > li > a {
-    color: rgb(39, 39, 39);
-    /* border-right: 1px solid rgb(23, 68, 134);
-    border-left: 1px solid rgb(23, 68, 134); */
+/* nav.dropdown-content > ul > li {
+    color: rgb(255, 255, 255);
+    border-right: 1px solid rgb(23, 68, 134);
+    border-left: 1px solid rgb(23, 68, 134);
     border-bottom: 1px solid rgb(173, 173, 173);
     text-align: right;
-}
-nav.dropdown-content > ul > li >a:hover {
-    color: rgb(39, 39, 39);
-    /* background-color: rgb(245, 229, 4); */
-    /* border-right: 1px solid rgb(23, 68, 134);
-    text-align: right; */
+} */
+
+nav.dropdown-content > ul>li:hover {
+    background-color: rgb(175, 175, 175);
+    text-align: right;
 }
   
 nav.dropdown-content{
     width: 120px;
     color:rgb(39, 39, 39);
-    background-color: rgb(99, 99, 99);
+    background-color: rgb(153, 153, 153);
     display: none;
     position: absolute;
     /* right: 0%; */
@@ -367,8 +369,8 @@ nav.dropdown-content{
   nav.main-nav > ul > li{
       display: inline-block;
       /* width: 120px; */
-      padding-right: 10px;
-      padding-left: 10px;
+      padding-right: 5px;
+      padding-left: 5px;
 
   }
   .dropdown .meshulash {
@@ -444,12 +446,7 @@ form {
 
     padding: 10px;
   }
-/*   
-  .row::after, container{
-    content: "";
-    display: table;
-    clear: both;
-  }
+
    */
 .row-left{
     float:left;
