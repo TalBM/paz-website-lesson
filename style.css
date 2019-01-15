@@ -6,15 +6,12 @@
 }
 
 body{
-    
     margin: 0;
     padding: 0;
-    /* background-image: url("screenshots/pazhomepage.png"); */
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
     font-family: Arial, Helvetica, sans-serif;
-
 }
 
 /* .whitecover{
@@ -289,8 +286,8 @@ padding: 5px; */
 }
 
 ul>li>a{
-    font-size: 14px;
-    font-weight: regular;
+    font-size: 16px;
+    font-weight: bold;
     line-height: 110%;
     color: rgb(255, 255, 255);
     text-decoration: none;
@@ -378,12 +375,12 @@ nav.dropdown-content{
   }
   ul{
     list-style-type: none;
-    text-align: center;
+    text-align: right;
   }
-li> .last-nav{
+/* li> .last-nav{
     border-left: 1px solid rgb(39, 39, 39);
 
-}
+} */
  /* ----end nav styles---- */
 
  .col-right-menu{
