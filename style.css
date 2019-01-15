@@ -29,7 +29,7 @@ header{
     height: 106px;
     top: 0;
     margin-bottom: 30px;
-    background-image: linear-gradient( rgb(99, 99, 99)80% , rgb(173, 173, 173));
+    background-image: linear-gradient( rgb(153, 153, 153)80% , rgb(189, 189, 189));
 }
 #paz_logo{
     position: absolute;
@@ -53,7 +53,7 @@ input{
     margin: 0 auto;
 
     /* text-align: center; */
-    background-color: rgba(1, 255, 35, 0.3);
+    /* background-color: rgba(1, 255, 35, 0.3); */
 }
 
 .row{
@@ -152,12 +152,17 @@ p.infotext1{
     margin-right: 0px;
     /* margin-left: 20px; */
 }    
-a.eng{
-    font-size: 13px;
-    font-weight: regular;
+.eng{
+    font-size: 12px;
+    font-weight: bold;
     line-height: 110%;
     color: white;
+    float: left;
+    cursor: pointer;
+    margin-top:20px;
+    text-decoration: none;
 }
+
 a.readmore{
     font-size: 13px;
     font-weight: regular;
@@ -446,7 +451,9 @@ form {
     clear: both;
   }
    */
-
+.row-left{
+    float:left;
+}
   
   /* .column {
     float: right;
