@@ -20,27 +20,26 @@
     </header>
 
 
-    <div class="container" style="border:2px dotted red;">
+    <div class="container">
         <!-- right menu -->
-        <div class="col-right-menu"><a>צור קשר</a><br>
+        <div class="col-right-menu"><span style="color:#005ca0">&#9668 </span><a>צור קשר</a><br>
     
         </div><!-- right menu End -->
 
         <!-- main-content -->
-        <div class="col-main-content" style="border:2px dotted rgb(40, 228, 40);"> <!-- main content -->
-            <div class="row breadcrums" style="border:2px dotted rgb(137, 75, 236);">
-                <a href="">צור קשר</a><span>></span><a href="">עמוד הבית</a>
+        <div class="col-main-content"> <!-- main content -->
+            <div class="row">
+                <a href="">צור קשר</a><span> > </span>עמוד הבית
     
             </div>
-            <div class="row title" style="border:2px dotted rgb(102, 76, 145);"><h3>צור קשר</h3> 
+            <div class="row title"><h3>צור קשר</h3> 
     
             </div>
         
-            <div class="col-content cube2" style="border:2px dotted rgb(69, 100, 236);"> <!-- content -->
+            <div class="col-content"> <!-- content -->
                 <h3>צור קשר</h3>
                 <h4>ליצירת קשר עם קשרי לקוחות אנא מלאו את הפרטים הבאים ואנו נשמח לעמוד לרשותכם :</h4>
                 <p>* השדות המסומנים בכוכבית (*) הינם שדות חובה</p>
-                <br>
                 <form>
                         <div class="row">
                           <label class="column" for="name">* שם פרטי</label> 
@@ -55,9 +54,13 @@
                                 <input class="column" type="number" name="phone" id="phone" maxlength="15" required>
                               </div>
                               <div class="row">
-                                    <label class="column" for="family">* דוא"ל</label> 
-                                    <input class="column" type="family" name="family" id="family" maxlength="15" required>
+                                    <label class="column" for="email">* דוא"ל</label> 
+                                    <input class="column" type="text" name="email" id="email" maxlength="15" required>
                                   </div>
+                                  <div class="row">
+                                        <!-- <label class="column" for="textarea">תוכן הפנייה</label>  -->
+                                        <textarea  name="textarea" id="textarea" placeholder="תוכן הפנייה" style="resize:none"></textarea>
+                                      </div>
                         <div class="row">
                           <button class="btn1" type="button">שלח</button>
                         </div>
@@ -76,7 +79,7 @@
 
             </div>
             
-            <div class="col-more-info" style="border:2px dotted rgb(69, 147, 236);"> <!-- more-info  -->
+            <div class="col-more-info"> <!-- more-info  -->
                 <div class="cube_bg">
                         <div class="cube2">
                             <h3>פרטי יצירת קשר</h3>

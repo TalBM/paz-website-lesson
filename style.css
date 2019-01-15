@@ -39,10 +39,11 @@ header{
 
 input{
     margin: 0;
+    margin-bottom: 5px;
     float: left;
     width: 130px;
     height: 19px;
-    border-top-right-radius: 5px;
+    /* border-top-right-radius: 5px; */
     border: 1px solid grey;
     padding-right: 5px;
 }
@@ -379,55 +380,57 @@ li> .last-nav{
      position: relative;
      float: right;
      width: 110px;
-     height: 50px;
-     padding-top:15px;
+     height: 40px;
+     padding-top:12px;
      font-size: 13px;
      border-top: 1px solid #dedede;
      background-image: linear-gradient( #ffffff , #cccccc);
-     /* margin: 5px; */
+     margin-left: 20px;
      
  }
  .col-main-content{
     position: relative;
     float: right;
-    width: 800px;
+    width: 780px;
     height: auto;
-    margin: 5px;
+    /* margin: 5px; */
+    font-size: 13px;
 }
 .col-more-info{
     position: relative;
     float: right;
     width: 292px;
     height: auto;
-    margin: 5px;
+    /* margin: 5px; */
 }
-.breadcrums{
-     width: 800px;
-     margin: 0 auto;
 
- }
 .col-content{
-    width:460px;
+    width:458px;
     position: relative;
     float: right;
     margin-left:30px;
-
+    padding-right: 20px;
+    padding-left: 20px;
+    height: 462px;
     background-image: linear-gradient( rgb(253, 253, 253)50% , rgb(226, 226, 226));
     border: 1px solid rgb(226, 226, 226);
     border-top-right-radius: 20px;
 }
 
-input{
-    width:200px;
-    margin:2px;
-}
+
 label{
     width: 120px;
 }
 
+textarea{
+    width: 100%;
+    margin-bottom: 5px;
+    font-family: sans-serif;
+    height: 100px;
+}
 
 form {
-    width: 400px;
+    width: 350px;
     /* display: block;  */
     margin: 0 auto;
 
@@ -440,17 +443,15 @@ form {
     clear: both;
   }
   
-  .row {
-    padding: 10px;
-  }
+
   
-  .column {
+  /* .column {
     float: right;
-  }
+  } */
   
   label.column {
     width: 120px;
-    padding:8px;
+    /* padding:8px; */
   }
   
   input.column {
@@ -460,7 +461,7 @@ form {
   
    
 button{
-    float: right;
+    float: left;
 
     display: block;
     width: 40px;
