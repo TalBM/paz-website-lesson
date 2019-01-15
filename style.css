@@ -2,7 +2,7 @@
     box-sizing: border-box;
     direction: rtl;
     text-align: right;
-    border:1px solid grey;
+    /* border:1px solid grey; */
 }
 
 body{
@@ -48,7 +48,7 @@ input{
 }
 
 .container{
-    width: 908px;
+    width: 925px;/*fix-me
     margin: 0 auto;
 
     /* text-align: center; */
@@ -56,6 +56,7 @@ input{
 }
 
 .row{
+    /* border:2px dotted red; */
     /* position: relative;
     display: block; */
     margin: 0 auto;
@@ -78,7 +79,7 @@ input{
 
 .col{
     position: relative;
-    float: left;
+    float: right;
     width: 292px;
     /* height: 354px; */
     height: auto;
@@ -360,3 +361,21 @@ li> .last-nav{
 
 }
  /* ----end nav styles---- */
+
+ .col-right-menu{
+     position: relative;
+     float: right;
+     width: 100px;
+     height: auto;
+     margin: 5px;
+ }
+ .col-main-content{
+    position: relative;
+    float: right;
+    width: 800px;
+    height: auto;
+    margin: 5px;
+}
+ .breadcrums{
+     width: 906px;
+ }
