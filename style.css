@@ -378,9 +378,14 @@ li> .last-nav{
  .col-right-menu{
      position: relative;
      float: right;
-     width: 100px;
-     height: auto;
-     margin: 5px;
+     width: 110px;
+     height: 50px;
+     padding-top:15px;
+     font-size: 13px;
+     border-top: 1px solid #dedede;
+     background-image: linear-gradient( #ffffff , #cccccc);
+     /* margin: 5px; */
+     
  }
  .col-main-content{
     position: relative;
@@ -410,4 +415,70 @@ li> .last-nav{
     background-image: linear-gradient( rgb(253, 253, 253)50% , rgb(226, 226, 226));
     border: 1px solid rgb(226, 226, 226);
     border-top-right-radius: 20px;
+}
+
+input{
+    width:200px;
+    margin:2px;
+}
+label{
+    width: 120px;
+}
+
+
+form {
+    width: 400px;
+    /* display: block;  */
+    margin: 0 auto;
+
+    padding: 10px;
+  }
+  
+  .row::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  .row {
+    padding: 10px;
+  }
+  
+  .column {
+    float: right;
+  }
+  
+  label.column {
+    width: 120px;
+    padding:8px;
+  }
+  
+  input.column {
+    width: 220px;
+    height: 25px;
+  }
+  
+   
+button{
+    float: right;
+
+    display: block;
+    width: 40px;
+    height: 20px;
+    /* padding: 6px; */
+    color: white;
+    text-align: center;
+    font-weight: 600;
+    background-image: linear-gradient( rgba(55, 176, 229) , #025088);
+    border: 1px solid #6c95b2;
+    border-radius: 1px;
+    /* margin: 5px; */
+}
+
+button:hover{
+    background-image: linear-gradient( #fde720 ,#f49109);
+    border: 1px solid #ead18d;
+    border-radius: 1px;
+    color: black;
+    cursor: pointer;
 }

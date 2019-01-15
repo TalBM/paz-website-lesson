@@ -22,7 +22,7 @@
 
     <div class="container" style="border:2px dotted red;">
         <!-- right menu -->
-        <div class="col-right-menu" style="border:2px dotted rgb(0, 128, 21);">right menu<br>right menu<br>right menu<br>
+        <div class="col-right-menu"><a>צור קשר</a><br>
     
         </div><!-- right menu End -->
 
@@ -37,8 +37,42 @@
             </div>
         
             <div class="col-content cube2" style="border:2px dotted rgb(69, 100, 236);"> <!-- content -->
-            
-                קוביית תוכן גדולה
+                <h3>צור קשר</h3>
+                <h4>ליצירת קשר עם קשרי לקוחות אנא מלאו את הפרטים הבאים ואנו נשמח לעמוד לרשותכם :</h4>
+                <p>* השדות המסומנים בכוכבית (*) הינם שדות חובה</p>
+                <br>
+                <form>
+                        <div class="row">
+                          <label class="column" for="name">* שם פרטי</label> 
+                          <input class="column" type="text" name="name" id="name" maxlength="15" required>
+                        </div>
+                        <div class="row">
+                          <label class="column" for="family">* שם משפחה</label> 
+                          <input class="column" type="text" name="family" id="family" maxlength="15" required>
+                        </div>
+                        <div class="row">
+                                <label class="column" for="phone">* טלפון</label> 
+                                <input class="column" type="number" name="phone" id="phone" maxlength="15" required>
+                              </div>
+                              <div class="row">
+                                    <label class="column" for="family">* דוא"ל</label> 
+                                    <input class="column" type="family" name="family" id="family" maxlength="15" required>
+                                  </div>
+                        <div class="row">
+                          <button class="btn1" type="button">שלח</button>
+                        </div>
+                      </form>
+                <!-- 
+                <div class="col" style="margin: 0 auto">
+                    <label for="input-name">* שם פרטי</label>
+                    <input id="input-name" type="text"><br>
+                    <label for="input-family">* שם משפחה</label>
+                    <input id="input-family" type="text"><br>
+                    <label for="input-name">* טלפון</label>
+                    <input id="input-name" type="text"><br>
+                    <label for="input-name">* דוא"ל</label>
+                    <input id="input-name" type="text">
+                </div> -->
 
             </div>
             
