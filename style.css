@@ -48,7 +48,7 @@ input{
 .container{
     width: 910px;
     margin: 0 auto;
-
+    position: relative;
     /* text-align: center; */
     /* background-color: rgba(1, 255, 35, 0.3); */
 }
@@ -149,6 +149,7 @@ p.infotext1{
     margin-right: 0px;
     /* margin-left: 20px; */
 }    
+
 .eng{
     font-size: 12px;
     font-weight: bold;
@@ -207,13 +208,16 @@ padding: 0 15px;
 
 a.lnk-footer{
     font-size: 13px;
-    font-weight: regular;
+    font-weight:bold;
     line-height: 110%;
-    margin: 5px;
+    margin: 1px;
     text-align: right;
     float: right;
     border-right: 1px solid white;
+    padding-right:4px;
+
 }
+
 
 .area1{
 text-align: right;
