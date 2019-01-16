@@ -294,6 +294,7 @@ footer{
 ul{
     list-style-type: none;
     text-align: right;
+    padding: 5px;
   }
 
 ul>li{
@@ -349,7 +350,7 @@ nav.dropdown-content > ul>li:hover {
 }
   
 nav.dropdown-content{
-    width: 120px;
+    width: 140px;
     color:rgb(39, 39, 39);
     background-color: rgb(153, 153, 153);
     display: none;
